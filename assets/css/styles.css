@@ -1,0 +1,65 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body{
+	padding: 20px;
+}
+header{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px;
+}
+.sesion{
+	margin: auto;
+	padding: 10px 5px;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	border: 1px solid #ccc;
+}
+.sesion p{
+	font-size: 1.5rem;
+}
+.sesion p span{
+	font-size: 1rem;
+}
+
+span .rol{
+	font-weight: bold;
+}
+
+h1{
+	text-align: center;
+}
+form{
+	padding: 10px;
+}
+
+form input{
+	width: 200px;
+	margin: 2px auto;
+	padding: 1px;
+}
+form button{
+	width: 80px;
+	padding: 5px;
+	text-align: center;
+	cursor: pointer;
+}
+table{
+	padding-top: 20px;
+}
+
+a{
+	text-decoration: none;
+	transition: all 0.7s ease;
+}
+a:hover{
+	font-size: 1.1rem;
+}
+tr td{
+	padding: 0 10px;
+}
